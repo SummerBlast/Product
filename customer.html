@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EWU product</title>
+    <link rel="stylesheet" href="customerstyle.css">
+</head>
+<body>
+    <!-- Header -->
+
+    <header >
+        <div class="nav">
+            <img src="assets/Logo.png" alt="fashion logo" class="logo">
+            <i class="fa-solid fa-bag-shopping shop"></i>
+            <button class="signout-button" onclick="signOut()">Sign Out</button>
+        </div>
+        <!-- sidde navbar -->
+        <div class="side-navbar hide" id="sideBar">
+            <div class="side-content">
+                <i class="fa-solid fa-arrow-right-from-bracket exit"></i>
+                <h2 class="side-title"> The articles</h2>
+                <hr>
+
+                <div class="products">
+                   
+                </div>
+                <div class="total">
+                    <hr>
+                    <h2 class="total-title"> Total </h2>
+                    <span class="total-price"> 0 </span>$
+                </div>
+             <button class="purchase">Buy now</button>
+            </div>
+        </div>
+       
+    </header>
+    <!-- product container -->
+   
+        <div class="content-list">
+            <div class="product-item">
+                <img src="assets/product1.jpg" alt="" class="item-image">
+                <h2 class="item-title">Black Shirt </h2>
+                <span class="item-price">40 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product2.jpg" alt="" class="item-image">
+                <h2 class="item-title">Flourish Shirt </h2>
+                <span class="item-price">20 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product3.jpg" alt="" class="item-image">
+                <h2 class="item-title">Trousers </h2>
+                <span class="item-price">100 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product4.jpg" alt="" class="item-image">
+                <h2 class="item-title">Dark Blue Flourish Shirt </h2>
+                <span class="item-price">60 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product5.jpg" alt="" class="item-image">
+                <h2 class="item-title">shirt </h2>
+                <span class="item-price">500 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product6.jpg" alt="" class="item-image">
+                <h2 class="item-title"> Formel shirt </h2>
+                <span class="item-price">20 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product7.jpg" alt="" class="item-image">
+                <h2 class="item-title"> Short Pants</h2>
+                <span class="item-price">220 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="assets/product8.jpg" alt="" class="item-image">
+                <h2 class="item-title">Feminin Shirt </h2>
+                <span class="item-price">200 $</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product-item">
+                <img src="images/dell_xps_13.jpg" alt="" class="item-image">
+                <h2 class="item-title">Dell XPS 13 Laptop</h2>
+                <span class="item-price">$1299.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/iphone_13_pro.jpg" alt="" class="item-image">
+                <h2 class="item-title">iPhone 13 Pro</h2>
+                <span class="item-price">$1099.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/samsung_qled_tv.jpg" alt="" class="item-image">
+                <h2 class="item-title">Samsung QLED 4K Smart TV</h2>
+                <span class="item-price">$1499.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/sony_wh1000xm4.jpg" alt="" class="item-image">
+                <h2 class="item-title">Sony WH-1000XM4 Wireless Headphones</h2>
+                <span class="item-price">$349.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/canon_eos_r5.jpg" alt="" class="item-image">
+                <h2 class="item-title">Canon EOS R5 Mirrorless Camera</h2>
+                <span class="item-price">$3499.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/nike_air_max_270.jpg" alt="" class="item-image">
+                <h2 class="item-title">Nike Air Max 270 Sneakers</h2>
+                <span class="item-price">$99.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/levis_501_jeans.jpg" alt="" class="item-image">
+                <h2 class="item-title">Levi's 501 Original Fit Jeans</h2>
+                <span class="item-price">$59.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/fossil_gen_6.jpg" alt="" class="item-image">
+                <h2 class="item-title">Fossil Gen 6 Smartwatch</h2>
+                <span class="item-price">$249.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/harry_potter_book.jpg" alt="" class="item-image">
+                <h2 class="item-title">Harry Potter and the Sorcerer's Stone</h2>
+                <span class="item-price">$14.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/gopro_hero9_black.jpg" alt="" class="item-image">
+                <h2 class="item-title">GoPro HERO9 Black Action Camera</h2>
+                <span class="item-price">$399.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/icons/2 (5).jpg" alt="" class="item-image">
+                <h2 class="item-title">Adidas Ultraboost Running Shoes</h2>
+                <span class="item-price">$129.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/icons/2.jpg" alt="" class="item-image">
+                <h2 class="item-title">Amazon Echo Dot (4th Gen)</h2>
+                <span class="item-price">$49.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/icons/2 (4).jpg" alt="" class="item-image">
+                <h2 class="item-title">Ray-Ban Classic Aviator Sunglasses</h2>
+                <span class="item-price">$149.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/icons/2 (2).jpg" alt="" class="item-image">
+                <h2 class="item-title">MacBook Air (M2, 2023)</h2>
+                <span class="item-price">$1499.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/icons/2 (3).jpg" alt="" class="item-image">
+                <h2 class="item-title">Fitbit Charge 5 Fitness Tracker</h2>
+                <span class="item-price">$179.99</span>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            
+        </div>
+ 
+
+
+
+    <!-- adding javascript -->
+    <script src="customersscript.js"></script>
+    <script src="https://kit.fontawesome.com/5ce33b27b6.js" crossorigin="anonymous"></script>
+</body>
+</html>

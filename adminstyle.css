@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.signout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.admin-panel {
+    display: none;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-item img {
+    width: 200px;  /* Adjust the width to your preference */
+    height: 200px; /* Adjust the height to your preference */
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.list-item-details {
+    flex-grow: 1;
+}
+
+.list-item-details h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.list-item-details p {
+    color: #404040;
+}
+
+.list-item-details button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-item-details button:hover {
+    background-color: #27ae60;
+}
+.add-panel {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px auto; /* Adjusted margin */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.add-panel h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.add-panel form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-panel label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.add-panel input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.add-panel button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.list-item {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+

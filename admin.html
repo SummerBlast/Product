@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="adminstyle.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Admin Panel</h1>
+        <button class="signout-button" onclick="signOut()">Sign Out</button>
+        <div class="options">
+            <button onclick="showPanel('manageProducts')">Manage Products</button>
+            <button onclick="showPanel('manageSellers')">Manage Sellers</button>
+            <button onclick="showPanel('manageCustomers')">Manage Customers</button>
+            <button onclick="showPanel('manageCategories')">Manage Categories</button>
+        </div>
+        <div id="manageProducts" class="admin-panel"></div>
+        <div id="manageSellers" class="admin-panel"></div>
+        <div id="manageCustomers" class="admin-panel"></div>
+        <div id="manageCategories" class="admin-panel"></div>
+
+        <!-- Add/Edit Panel -->
+        <div id="addEditPanel" class="add-panel">
+            <h2 id="addEditTitle">Add/Edit Item</h2>
+            <form id="itemForm">
+                <label for="itemName">Name:</label>
+                <input type="text" id="itemName" placeholder="Enter item name" required>
+
+                <label for="itemDescription">Description:</label>
+                <textarea id="itemDescription" placeholder="Enter item description" required></textarea>
+
+                <label for="itemImage">Image URL:</label>
+                <input type="url" id="itemImage" placeholder="Enter image URL" required>
+
+                <button type="button" onclick="saveItem()">Save</button>
+                <button type="button" onclick="cancelEdit()">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="adminscript.js"></script>
+</body>
+</html>

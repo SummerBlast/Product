@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Panel</title>
+    <link rel="stylesheet" href="sellerstyle.css">
+</head>
+<body>
+    <div class="seller-container">
+        <h1>Seller Panel</h1>
+        <button class="signout-button" onclick="signOut()">Sign Out</button>
+        <div class="options">
+            <button onclick="showPanel('manageProducts')">Manage Products</button>
+            <button onclick="showPanel('manageOrders')">Manage Orders</button>
+        </div>
+        <div id="manageProducts" class="seller-panel">
+            <!-- Product list will be dynamically generated here -->
+        </div>
+        <div id="manageOrders" class="seller-panel">
+            <!-- Order list will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script src="sellerscript.js"></script>
+</body>
+</html>
